@@ -1,0 +1,27 @@
+This is AIR client for Socket.IO-Node server. 
+It works with the demo chat server included in Socket.IO-node package 
+--------------------------------------------------
+REQUIREMENTS
+-------------------------------------------------
+- for the Server
+     nodejs - NodeJS - www.nodejs.org
+     socket.IO-node - http://github.com/LearnBoost/Socket.IO-node
+- for the Client
+     FlashDevelop - http://www.flashdevelop.org/
+     web-socket-js  - http://github.com/gimite/web-socket-js  made by Hiroshi Ichikawa.
+     3rd party lib - https://github.com/mikechambers/as3corelib
+
+---------------------------------------------------
+INSALL & Compile
+---------------------------------------------------
+Get nodejs builds for windows, use it on linux on saparate computer or use virtual machine.
+Get socket.IO-node - start demo chat server.
+
+Install Flash develop. Open the FlashWebSocketDemo.as3proj project.
+You need to set your local IP address or domain name.
+Compile it.
+Now u can connect to chat server with AIR app, and make multiuser chat adding more users in different browsers.
+
+___________________________________________________________________________________________
+For more information - http://nasko7.blogspot.com/2010/10/how-to-connect-air-app-to-socketio-chat.html
+
